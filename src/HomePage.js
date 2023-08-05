@@ -22,7 +22,6 @@ import hpimg19 from './hpimg19.png';
 import hpimg20 from './hpimg20.png';
 import hpimg21 from './hpimg21.png';
 
-import './HomePage.css';
 
 function HomePage() {
   const [email, setEmail] = useState('');
@@ -34,7 +33,7 @@ function HomePage() {
 
 
   return (
-    <body>
+    
 
       <div className='homepage'>
 
@@ -56,20 +55,22 @@ function HomePage() {
           </nav>
         </header>
 
+
         <div className='homepage-section'>
           <h1>
             <b>Protect Your Health<br /> And Take Care Of<br /> Your Health</b>
           </h1>
         </div>
+        
         <div className='homepage-section1'>
           <h2>
             <img src={hpimg3} id="hpimg3" alt="an icon" />
             Make an appointment
           </h2><br />
           <p>Schedule an appointment<br /> with a doctor anytime</p>
-
-
         </div>
+
+
         <div className='homepage-section2'>
           <h2>
             <img src={hpimg4} id="hpimg4" alt=" icon" />
@@ -397,7 +398,7 @@ function HomePage() {
           </div>
         </footer>
       </div>
-    </body>
+   
 
 
   );

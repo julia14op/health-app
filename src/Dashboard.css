@@ -55,7 +55,7 @@ color:#E40815;
     background-color: #0941D1;
 }
 
-.homepage-section {
+.dashboard-section {
     position: relative;
     top: 200px;
     left: 150px;
@@ -67,28 +67,28 @@ color:#E40815;
     gap: 10px;
 }
 
-.homepage-section1 {
+.dashboard-section1 {
     position: relative;
     top: 230px;
     left: 150px;
     font-size: 12px;
 }
 
-.homepage-section2 {
+.dashboard-section2 {
     position: relative;
     top: 160px;
     left: 470px;
     font-size: 12px;
 }
 
-.homepage-section3 {
+.dashboard-section3 {
     position: relative;
     top: 160px;
     left: 150px;
     font-size: 12px;
 }
 
-.homepage-section4 {
+.dashboard-section4 {
     position: relative;
     top: 80px;
     left: 470px;
@@ -135,7 +135,7 @@ color:#E40815;
     position: absolute;
 }
 
-.homepage-section5 {
+.dashboard-section5 {
     position: absolute;
     top: 835px;
     left: 400px;
@@ -144,7 +144,7 @@ color:#E40815;
     text-align: center;
 }
 
-.homepage-card1 {
+.dashboard-card1 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
@@ -154,12 +154,12 @@ color:#E40815;
     position: relative;
 }
 
-.homepage-card1 h4 {
+.dashboard-card1 h4 {
     padding: 3rem 2rem 1rem 2rem;
     margin-bottom: 1rem;
 }
 
-.homepage-card1 .text {
+.dashboard-card1 .text {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -167,7 +167,7 @@ color:#E40815;
     justify-content: space-between;
 }
 
-.homepage-card2 {
+.dashboard-card2 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
@@ -177,12 +177,12 @@ color:#E40815;
     position: relative;
 }
 
-.homepage-card2 h4 {
+.dashboard-card2 h4 {
     padding: 3rem 2rem 1rem 2rem;
     margin-bottom: 1rem;
 }
 
-.homepage-card2 .text {
+.dashboard-card2 .text {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -190,7 +190,7 @@ color:#E40815;
     justify-content: space-between;
 }
 
-.homepage-card3 {
+.dashboard-card3 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
@@ -205,7 +205,7 @@ color:#E40815;
     margin-bottom: 1rem;
 }
 
-.homepage-card3 .text {
+.dashboard-card3 .text {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -213,7 +213,7 @@ color:#E40815;
     justify-content: space-between;
 }
 
-.homepage-section6 {
+.dashboard-section6 {
     position: absolute;
     top: 1500px;
     left: 50px;
@@ -221,7 +221,7 @@ color:#E40815;
     background-clip: text;
 }
 
-.homepage-section7 {
+.dashboard-section7 {
     position: absolute;
     top: 1690px;
     left: 50px;
@@ -267,7 +267,7 @@ color:#E40815;
     border-radius: 200px;
 }
 
-.hp-section7 button {
+.db-section7 button {
     text-align: center;
     background-color: #0941D1;
     color: #fff;
@@ -280,11 +280,11 @@ color:#E40815;
     left: 29px;
 }
 
-.hp-section7 button:hover {
+.db-section7 button:hover {
     background-color: #0941D1;
 }
 
-.homepage-section8 {
+.dashboard-section8 {
     text-align: center;
     position: relative;
     top: -1110px;
@@ -315,12 +315,12 @@ color:#E40815;
     height: 236px;
 }
 
-.homepage-card4 p {
+.dashboard-card4 p {
     font-size: 10px;
     color: #00000099;
 }
 
-.homepage-card5 {
+.dashboard-card5 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
@@ -340,12 +340,12 @@ color:#E40815;
     height: 230px;
 }
 
-.homepage-card5 p {
+.dashboard-card5 p {
     font-size: 10px;
     color: #00000099;
 }
 
-.homepage-card6 {
+.dashboard-card6 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
@@ -365,12 +365,12 @@ color:#E40815;
     height: 236px;
 }
 
-.homepage-card6 p {
+.dashboard-card6 p {
     font-size: 10px;
     color: #00000099;
 }
 
-.hp-sub8 button {
+.db-sub8 button {
     text-align: center;
     background-color: #9C0AE1;
     color: #fff;
@@ -380,7 +380,7 @@ color:#E40815;
     cursor: pointer;
 }
 
-.hp-sub8 button:hover {
+.db-sub8 button:hover {
     background-color: #9C0AE1;
 }
 
@@ -407,7 +407,7 @@ color:#E40815;
     height: 15px;
 }
 
-.homepage-section9 {
+.dashboard-section9 {
     background-color: #fff;
     position: relative;
     top: -1600px;
@@ -415,12 +415,12 @@ color:#E40815;
     height: 569px;
 }
 
-.homepage-section9 h3 {
+.dashboard-section9 h3 {
     text-align: center;
     padding: 2rem;
 }
 
-.homepage-section9 h4 {
+.dashboard-section9 h4 {
     position: relative;
     top: 70px;
     left: 2px;
@@ -468,7 +468,7 @@ color:#E40815;
     font-size: 10px;
 }
 
-.homepage-card7 {
+.dashboard-card7 {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -482,7 +482,7 @@ color:#E40815;
     left: 20px;
 }
 
-.homepage-card8 {
+.dashboard-card8 {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -497,7 +497,7 @@ color:#E40815;
     top: -350px;
 }
 
-.homepage-card9 {
+.dashboard-card9 {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
     -webkit-box-pack: justify;
@@ -530,13 +530,13 @@ color:#E40815;
     left: 560px;
 }
 
-.homepage-section10 {
+.dashboard-section10 {
     text-align: center;
     position: relative;
     top: -1500px;
 }
 
-.hp-section10 button {
+.db-section10 button {
     text-align: center;
     background-color: #0941D1;
     color: #fff;
@@ -548,7 +548,7 @@ color:#E40815;
     top: 50px;
 }
 
-.hp-section10 button :hover {
+.db-section10 button :hover {
     background-color: #0941D1;
 }
 
@@ -566,7 +566,7 @@ footer p {
     padding: 2rem;
 }
 
-.homepage-footer1 {
+.dashboard-footer1 {
     padding: 2rem 2rem;
 }
 
@@ -582,23 +582,23 @@ footer p {
     padding: 2rem 1rem;
 }
 
-.homepage-footer2 {
+.dashboard-footer2 {
     position: relative;
     top: -350px;
     left: 400px;
 }
 
-.hpfooter2 {
+.dbfooter2 {
     cursor: pointer;
 }
 
-.homepage-footer3 {
+.dashboard-footer3 {
     position: relative;
     top: -695px;
     left: 700px;
 }
 
-.homepage-footer4 {
+.dashboard-footer4 {
     position: relative;
     top: -950px;
     left: 900px;
@@ -627,12 +627,12 @@ footer p {
     background-color: #0941D1;
 }
 
-.hp-footer3{
+.db-footer3{
     position: relative;
     top: -700px;
 }
 
-.hp-footer4{
+.db-footer4{
     position: relative;
     top: -700px;
     text-align: center;
