@@ -1,0 +1,55 @@
+body{
+    background-color: #EBFFEB;
+}
+
+#as1 {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+#aslogo {
+    position: relative;
+    top: 220px;
+    left: 556px;
+    gap: 14px;
+}
+
+.Asuccess-main p {
+    position: absolute;
+    top: 340px;
+    left: 593px;
+    gap: 14px;
+}
+
+#asimg1{
+    position: absolute;
+    top: 380px;
+    left: 587px; 
+    width:50px;
+    height:50px;
+}
+
+#asimg2{
+    position: absolute;
+    top: 385px;
+    left: 592px; 
+    width:40px;
+    height:40px;
+}
+
+#asimg3{
+    position: absolute;
+    top: 390px;
+    left: 597px; 
+    width:30px;
+    height:30px;
+}
+
+#asimg4{
+    position: absolute;
+    top: 395px;
+    left: 600px; 
+    width:20px;
+    height:20px;
+}

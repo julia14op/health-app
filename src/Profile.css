@@ -1,0 +1,111 @@
+.profile-main {
+    background-color: #EBFFEB;
+}
+
+#ppimg1 {
+    position: relative;
+    left: 100px;
+    top: 39px;
+}
+
+#ppimg3 {
+    position: relative;
+    left: 80px;
+    top: 80px;
+}
+
+.profile-form {
+    background-color: #fff;
+    width: 750px;
+    height: 600px;
+    position: relative;
+    left: 370px;
+    top: -73px;
+    box-shadow: 10px 10px 15px 0px #00000026;
+}
+
+#fName{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 370px;
+    top:36px;
+    border: 1px solid #000000;
+}
+
+#lName{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    top:80px;
+    border: 1px solid #000000;
+}
+
+#pp-email{
+    padding:4px;
+    width:600px;
+    height:44px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    top:70px;
+    border: 1px solid #000000;
+}
+
+#pp-phoneNumber{
+    padding:4px;
+    width:600px;
+    height:44px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    top:100px;
+    border: 1px solid #000000;
+}
+#pp-nationality{
+    padding:4px;
+    width:450px;
+    height:44px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    top:130px;
+    border: 1px solid #000000;
+}
+
+#pp-message{
+    padding:4px;
+    width:450px;
+    height:44px;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 70px;
+    top:160px;
+    border: 1px solid #000000;
+}
+
+.form-btn button {
+    text-align: center;
+    background-color: #0941D1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width:646px;
+    height:60px;
+    position: relative;
+    top:200px;
+    left: 70px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-btn button:hover {
+    background-color: #0941D1;
+}

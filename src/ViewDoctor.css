@@ -1,0 +1,87 @@
+.vd-main {
+    background-color: #EBFFEB;
+}
+
+
+#vm1 {
+    position: absolute;
+    top: 100px;
+    left: 89px;
+    width: 15px;
+    height: 15px;
+}
+
+#vmimg1 {
+    position: absolute;
+    top: 160px;
+    left: 89px;
+    width: 110px;
+    height: 110px;
+}
+
+.vm-section1 {
+    position: absolute;
+    left: 265px;
+    top: 175px;
+}
+
+#vmimg4 {
+    width: 1208px;
+    position: absolute;
+    top: 280px;
+}
+
+.vm-section4 {
+    position: absolute;
+    top: 380px;
+    left: 89px;
+}
+
+.vm-section5 {
+    position: absolute;
+    top: 500px;
+    left: 89px;
+}
+
+
+table {
+    border: none;
+    outline: none;
+    border-collapse: collapse;
+    position: absolute;
+    top: 530px;
+    left: -5px;
+}
+
+td {
+    padding: 1rem 6rem;
+}
+
+
+#vmimg2 {
+    width: 350px;
+    height: 322px;
+    position: absolute;
+    left: 700px;
+    top: 390px;
+}
+
+
+.vd-btn button {
+    text-align: center;
+    background-color: #0941D1;
+    color: #fff;
+    border: none;
+    width: 646px;
+    height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 800px;
+    left: 100px;
+}
+
+.vd-btn button:hover {
+    background-color: #0941D1;
+}
