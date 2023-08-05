@@ -21,7 +21,10 @@ function AboutUs() {
       <img src={globe} id="globe" alt="an earth globe pic" />
       <h1>About Us</h1>
       <p>
-        We link the gap between the doctors and patients across<br /> the country by providing a platform for booking<br /> appointments with a doctor online for either physical or<br /> virtual meetings.
+        We link the gap between the doctors and patients across<br /> 
+        the country by providing a platform for booking<br /> 
+        appointments with a doctor online for either physical or<br /> 
+        virtual meetings.
       </p>
 
       <p>Your Solution</p>

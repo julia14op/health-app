@@ -67,7 +67,7 @@ function HomePage() {
       )}
 
             <div className='hpnavbar-btn'>
-              <Link to='/find-doctor/:doctorId'><button>Book An Appointment</button></Link>
+              <Link to='/find-doctor'><button>Book An Appointment</button></Link>
             </div>
           </nav>
         </header>

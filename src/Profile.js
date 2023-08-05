@@ -23,7 +23,7 @@ function Profile() {
             <Link to='/dashboard'><img src={hpimg1} id="hpimg1" alt="a female doctor" /></Link>
 
             <div className='hpnavbar-btn'>
-              <Link to='/find-doctor/:doctorId'><button>Book An Appointment</button></Link>
+              <Link to='/find-doctor'><button>Book An Appointment</button></Link>
             </div>
           </nav>
         </header>
