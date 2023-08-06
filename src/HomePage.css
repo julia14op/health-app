@@ -49,41 +49,40 @@
 
 .homepage-section {
     position: absolute;
-    top: 400px;
-    left: 150px;
+    top: 250px;
+    left: 180px;
     font-size: 20px;
     font-weight: 100;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
     gap: 10px;
-   
 }
 
 .homepage-section1 {
     position: absolute;
-    top: 230px;
-    left: 150px;
+    top: 450px;
+    left: 180px;
     font-size: 12px;
 }
 
 .homepage-section2 {
     position: absolute;
-    top: 160px;
+    top: 450px;
     left: 470px;
     font-size: 12px;
 }
 
 .homepage-section3 {
     position: absolute;
-    top: 160px;
-    left: 150px;
+    top: 550px;
+    left: 180px;
     font-size: 12px;
 }
 
 .homepage-section4 {
     position: absolute;
-    top: 80px;
+    top: 550px;
     left: 470px;
     font-size: 12px;
 }
@@ -97,27 +96,45 @@
     font-size: 14px;
     cursor: pointer;
     position: absolute;
-    left: 150px;
-    top: -570px;
+    left: 180px;
+    top: 695px;
 }
+
+#hpimg3{
+    position: absolute;
+    left :-30px;
+}
+
+#hpimg4{
+    position: absolute;
+    left :-30px;
+}
+#hpimg5{
+    position: absolute;
+    left :-30px;
+}
+#hpimg6{
+    position: absolute;
+    left :-30px;
+}
+
 
 #hpimg2 {
     width: 450px;
     height: 700px;
-    top: -500px;
-    left: 590px;
+    top: 50px;
+    left: 690px;
     position: absolute;
 }
 
 #hpimg7 {
     width: 490px;
     height: 96px;
-    top: -460px;
-    left: 126px;
+    top: 650px;
+    left: 690px;
     gap: 10px;
     position: absolute;
 }
-
 .ellipse {
     background-color: #0941D1;
     width: 280px;
@@ -136,17 +153,15 @@
     background-clip: text;
     text-align: center;
 }
-
 .homepage-card1 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    top: -300px;
+    top: 990px;
     left: 30px;
     position: absolute;
 }
-
 .homepage-card1 h4 {
     padding: 3rem 2rem 1rem 2rem;
     margin-bottom: 1rem;
@@ -159,13 +174,16 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
+#hpimg5{
+    position: absolute;
+    left:30px;
+}
 .homepage-card2 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    top: -650px;
+    top: 990px;
     left: 405px;
     position: absolute;
 }
@@ -188,7 +206,7 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    top: -999px;
+    top: 990px;
     left: 780px;
     position: absolute;
 }
@@ -197,7 +215,6 @@
     padding: 3rem 2rem 1rem 2rem;
     margin-bottom: 1rem;
 }
-
 .homepage-card3 .text {
     padding: 1rem 2rem 0;
     padding-bottom: 0;
@@ -241,25 +258,6 @@
     height: 15px;
 }
 
-#hpimg12 {
-    width: 400px;
-    height: 520px;
-    position: absolute;
-    top: -1155px;
-    left: 664px;
-
-}
-
-.rectangle {
-    background-color: #0941D1;
-    width: 180px;
-    height: 180px;
-    position: absolute;
-    top: -960px;
-    left: 783px;
-    border-radius: 200px;
-}
-
 .hp-section7 button {
     text-align: center;
     background-color: #0941D1;
@@ -269,32 +267,49 @@
     font-size: 14px;
     cursor: pointer;
     position: absolute;
-    top: -1200px;
-    left: 29px;
+    top: 1830px;
+    left: 50px;
 }
-
 .hp-section7 button:hover {
     background-color: #0941D1;
 }
 
+
+#hpimg12 {
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    top:1430px;
+    left: 690px;
+
+}
+
+.rectangle {
+    background-color: #0941D1;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top:1450px;
+    left: 800px;
+    border-radius: 200px;
+}
 .homepage-section8 {
     text-align: center;
     position: absolute;
-    top: -1110px;
-    left: 10px;
+    top: 2110px;
+    left: 270px;
 }
 
 .homepage-section8 h3 {
     color: #00000099;
 }
-
 .homepage-card4 {
     box-shadow: 4px 8px 15px 0px #00000026;
     background: #FFFFFF;
     width: 350px;
     height: 350px;
     position: absolute;
-    top: -1050px;
+    top: 2400px;
     left: 30px;
     padding: 1rem 2rem 0;
     padding-bottom: 0;
@@ -302,12 +317,10 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
-
 #hpimg9 {
     width: 306px;
     height: 236px;
 }
-
 .homepage-card4 p {
     font-size: 10px;
     color: #00000099;
@@ -318,8 +331,8 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    position: relative;
-    top: -1400px;
+    position: absolute;
+    top: 2400px;
     left: 405px;
     padding: 1rem 2rem 0;
     padding-bottom: 0;
@@ -343,8 +356,8 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    position: relative;
-    top: -1750px;
+    position: absolute;
+    top: 2400px;
     left: 780px;
     padding: 1rem 2rem 0;
     padding-bottom: 0;
@@ -378,21 +391,21 @@
 }
 
 .sub9 {
-    position: relative;
-    left: 200px;
-    top: -26px;
+    position: absolute;
+    left: 240px;
+    top: 320px;
 }
 
 .sub10 {
-    position: relative;
-    left: 200px;
-    top: -20px;
+    position: absolute;
+    left: 240px;
+    top: 320px;
 }
 
 .sub11 {
-    position: relative;
-    left: 200px;
-    top: -25px;
+    position: absolute;
+    top:320px;
+    left: 240px;
 }
 
 #hpimg16 {
@@ -402,10 +415,12 @@
 
 .homepage-section9 {
     background-color: #fff;
-    position: relative;
-    top: -1600px;
-    left: 2px;
+    position: absolute;
+    top: 3000px;
+    left: 1px;
     height: 569px;
+    width:1208px;
+    
 }
 
 .homepage-section9 h3 {
@@ -414,51 +429,36 @@
 }
 
 .homepage-section9 h4 {
-    position: relative;
-    top: 70px;
-    left: 2px;
+    position: absolute;
+    top: 270px;
+    left: 30px;
 }
 
 .sub12 {
-    position: relative;
-    top: 70px;
-    right: 1px;
+    position: absolute;
+    top: 300px;
+    left: 30px;
     font-size: 10px;
 }
 
-.sub13 {
-    position: relative;
-    top: 90px;
-    left: 1px;
-    font-size: 10px;
-}
 
-.sub14 {
-    position: relative;
-    top: 90px;
-    left: 2px;
-    font-size: 10px;
-}
 
 .sup12 {
-    position: relative;
-    top: 59px;
-    left: 200px;
-    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
 }
 
 .sup13 {
-    position: relative;
-    top: 76px;
-    left: 200px;
-    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
 }
 
 .sup14 {
-    position: relative;
-    top: 74px;
-    left: 200px;
-    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 250px;
 }
 
 .homepage-card7 {
@@ -471,8 +471,8 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    position: relative;
-    left: 20px;
+    position: absolute;
+    left: 30px;
 }
 
 .homepage-card8 {
@@ -485,9 +485,8 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    position: relative;
+    position: absolute;
     left: 412px;
-    top: -350px;
 }
 
 .homepage-card9 {
@@ -500,33 +499,33 @@
     background: #FFFFFF;
     width: 350px;
     height: 350px;
-    position: relative;
+    position: absolute;
     left: 800px;
-    top: -700px;
 }
 
 #hpimg17 {
     border: 10px;
     box-shadow: 8px 10px 15px 0px #00000026;
     border-radius: 12px;
-    position: relative;
-    top: -640px;
-    left: 500px;
+    position: absolute;
+    top: 530px;
+    left: 600px;
 }
 
 #hpimg18 {
     border: 10px;
     box-shadow: 8px 10px 15px 0px #00000026;
     border-radius: 12px;
-    position: relative;
-    top: -641px;
-    left: 560px;
+    position: absolute;
+    top: 530px;
+    left: 660px;
 }
 
 .homepage-section10 {
     text-align: center;
-    position: relative;
-    top: -1500px;
+    position: absolute;
+    top: 3700px;
+    left:360px;
 }
 
 .hp-section10 button {
@@ -537,8 +536,9 @@
     padding: 10px 20px;
     font-size: 14px;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     top: 50px;
+    left:170px;
 }
 
 .hp-section10 button :hover {
@@ -547,8 +547,10 @@
 
 footer {
     background-color: #fff;
-    position: relative;
-    top: -1300px;
+    position: absolute;
+    top: 3900px;
+    width:1208px;
+    left:1px;
 }
 
 footer p {
@@ -576,8 +578,8 @@ footer p {
 }
 
 .homepage-footer2 {
-    position: relative;
-    top: -350px;
+    position: absolute;
+    top: 10px;
     left: 400px;
 }
 
@@ -586,14 +588,14 @@ footer p {
 }
 
 .homepage-footer3 {
-    position: relative;
-    top: -695px;
+    position: absolute;
+    top: 10px;
     left: 700px;
 }
 
 .homepage-footer4 {
-    position: relative;
-    top: -950px;
+    position: absolute;
+    top: 10px;
     left: 900px;
 }
 
@@ -610,7 +612,7 @@ footer p {
     border: none;
     padding: 10px 30px;
     font-size: 14px;
-    position: relative;
+    position: absolute;
     left: 50px;
     font-size: 12px;
     cursor: pointer;
@@ -620,13 +622,17 @@ footer p {
     background-color: #0941D1;
 }
 
-.hp-footer3{
-    position: relative;
-    top: -700px;
+.hp-footer4 hr{
+    position: absolute;
+    top: 370px;
+    width:1208px;
 }
 
-.hp-footer4{
-    position: relative;
-    top: -700px;
+.hp-footer4 p{
+    position: absolute;
+    top: 385px;
     text-align: center;
+    font-weight:bold;
+    font-size:15px;
 }
+

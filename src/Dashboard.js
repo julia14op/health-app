@@ -24,7 +24,7 @@ import hpimg21 from './hpimg21.png';
 
 import './Dashboard.css';
 
-function HomePage() {
+function Dashboard() {
   const [email, setEmail] = useState('');
   const navigate = useNavigate();
   const [showLinks, setShowLinks] = useState(false);
@@ -39,9 +39,8 @@ function HomePage() {
 
 
   return (
-    <body>
-
-      <div className='dashboard'>
+  
+      <div className='homepage'>
 
         <header>
           <nav className='homepagenavbar'>
@@ -72,21 +71,23 @@ function HomePage() {
           </nav>
         </header>
 
-        <div className='dashboard-section'>
+
+        <div className='homepage-section'>
           <h1>
             <b>Protect Your Health<br /> And Take Care Of<br /> Your Health</b>
           </h1>
         </div>
-        <div className='dashboard-section1'>
+        
+        <div className='homepage-section1'>
           <h2>
             <img src={hpimg3} id="hpimg3" alt="an icon" />
             Make an appointment
           </h2><br />
           <p>Schedule an appointment<br /> with a doctor anytime</p>
-
-
         </div>
-        <div className='dashboard-section2'>
+
+
+        <div className='homepage-section2'>
           <h2>
             <img src={hpimg4} id="hpimg4" alt=" icon" />
             Health Guaranteed Forever
@@ -96,7 +97,7 @@ function HomePage() {
 
 
         </div>
-        <div className='dashboard-section3'>
+        <div className='homepage-section3'>
           <h2>
             <img src={hpimg5} id="hpimg5" alt=" icon" />
             Find your best doctor
@@ -104,7 +105,7 @@ function HomePage() {
           <p>We always provide the best health <br /> care doctors for you.</p><br />
 
         </div>
-        <div className='dashboard-section4'>
+        <div className='homepage-section4'>
           <h2>
             <img src={hpimg6} id="hpimg6" alt="icon" />
             Spread in various places
@@ -118,12 +119,12 @@ function HomePage() {
         <img src={hpimg2} id="hpimg2" alt="a female doctor" />
         <img src={hpimg7} id="hpimg7" alt="subframe" />
 
-        <div className='dashboard-section5'>
+        <div className='homepage-section5'>
           <h2>
             Quick Solution For Scheduling<br /> With Doctors
           </h2>
         </div>
-        <div className='dashboard-card1'>
+        <div className='homepage-card1'>
           <h4>
             <img src={hpimg5} id="hpimg5" alt=" icon" /><br /><br />
             Find Doctor
@@ -135,7 +136,7 @@ function HomePage() {
             <Link to='#'>See more</Link>
           </p>
         </div>
-        <div className='dashboard-card2'>
+        <div className='homepage-card2'>
           <h4>
             <img src={hpimg5} id="hpimg5" alt=" icon" /><br /><br />
             Schedule Appointment
@@ -148,7 +149,7 @@ function HomePage() {
           </p>
 
         </div>
-        <div className='dashboard-card3'>
+        <div className='homepage-card3'>
           <h4>
             <img src={hpimg5} id="hpimg5" alt=" icon" /><br /><br />
             Get Your Solution
@@ -161,11 +162,11 @@ function HomePage() {
           </p>
         </div>
 
-        <div className='dashboard-section6'>
+        <div className='homepage-section6'>
           <h2> Consultation With Your Best <br />
             Doctor Anywhere And Anytime.</h2>
         </div>
-        <div className='dashboard-section7'>
+        <div className='homepage-section7'>
           <div>
             <img src={hpimg3} id="sub7" alt="an icon" />
             <p className='sub7'>
@@ -188,12 +189,12 @@ function HomePage() {
         <div>
           <img src={hpimg12} id="hpimg12" alt="a male doctor" />
         </div>
-        <div className='db-section7'>
+        <div className='hp-section7'>
           <Link to='/find-doctor'>
             <button>Book An Appointment</button>
           </Link>
         </div>
-        <div className='dashboard-section8'>
+        <div className='homepage-section8'>
           <h2>
             Meet Our Great Doctors.
           </h2>
@@ -203,10 +204,10 @@ function HomePage() {
             experience in their fields and you will get the best solution for your problem.
           </h3>
         </div>
-        <div className='dashboard-card4'>
+        <div className='homepage-card4'>
           <img src={hpimg9} id="hpimg9" alt="a male doctor" />
           <h3>Dr. Lindsey Botosh</h3>
-          <div className='db-sub8'>
+          <div className='hp-sub8'>
             <button>Professionals</button>
           </div>
           <br />
@@ -216,12 +217,13 @@ function HomePage() {
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
+            <img src={hpimg16} id='hpimg16' alt="icon" />
           </div>
         </div>
-        <div className='dashboard-card5'>
+        <div className='homepage-card5'>
           <img src={hpimg10} id="hpimg10" alt="a male doctor" />
           <h3>Dr. Adams Ayomide</h3>
-          <div className='db-sub8'>
+          <div className='hp-sub8'>
             <button>Professionals</button>
           </div>
           <br />
@@ -231,12 +233,13 @@ function HomePage() {
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
+            <img src={hpimg16} id='hpimg16' alt="icon" />
           </div>
         </div>
-        <div className='dashboard-card6'>
+        <div className='homepage-card6'>
           <img src={hpimg11} id="hpimg11" alt="a male doctor" />
           <h3>Dr. Jon Smith</h3>
-          <div className='db-sub8'>
+          <div className='hp-sub8'>
             <button>Professionals</button>
           </div>
           <br />
@@ -250,21 +253,24 @@ function HomePage() {
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
+            <img src={hpimg16} id='hpimg16' alt="icon" />
           </div>
         </div>
 
 
-        <div className='dashboard-section9'>
+        <div className='homepage-section9'>
           <h3>What Our  Customers Say About Us.</h3>
           <br />
-          <div className='dashboard-card7'>
+
+          <div className='homepage-card7'>
             <img src={hpimg13} id='hpimg13' alt="icon" />
 
             <p>Although this ia good innovation, the main aim
               is to have a stress free visitation at the hospital
               in order to see the doctor.</p>
-
+              <br/>
             <hr />
+            
             <h4>Wade Wumi</h4><br />
             <div className='sub12'>
               <p>
@@ -280,16 +286,17 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='dashboard-card8'>
+          <div className='homepage-card8'>
             <img src={hpimg15} id='hpimg15' alt="icon" />
             <p>
               it was actually the best site for a medical care
               has it helps me to book appointment aheasd
               in other to save time and stress.
             </p>
+            <br/>
             <hr />
             <h4>Ilesanmi Oluwatope</h4>
-            <div className='sub13'>
+            <div className='sub12'>
               <p>
                 <b>
                   CEO Google Inc.
@@ -304,14 +311,15 @@ function HomePage() {
             </div>
           </div>
 
-          <div className='dashboard-card9'>
+          <div className='homepage-card9'>
             <img src={hpimg14} id='hpimg14' alt="icon" />
             <p>This website is very helpful as it help to reduce
               the frequent visiting to the hospital and help
               me most of my consultation online.</p>
+              <br/>
             <hr />
             <h4>Victoria Joy</h4>
-            <div className='sub14'>
+            <div className='sub12'>
               <p>
                 <b>
                   CEO Google Inc.
@@ -331,9 +339,9 @@ function HomePage() {
 
         </div>
 
-        <div className='dashboard-section10'>
+        <div className='homepage-section10'>
           <h2>Always Check Your Health And Stay Healthy.</h2>
-          <div className='db-section10'>
+          <div className='hp-section10'>
             <Link to='/find-doctor'>
               <button>Book An Appointment</button>
             </Link>
@@ -341,82 +349,84 @@ function HomePage() {
         </div>
 
         <footer>
-
-          <img src={logo} id='dbfooter1' alt="icon" />
-          <br />
-          <div className='dashboard-footer1'>
+          
+            <img src={logo} id='hpfooter1' alt="icon" />
+            <br/>
+            <div className='homepage-footer1'>
             <b>
-              <p>We will always give our<br />
-                customers the best services<br />
-                for their health insurance<br />
-                anytime and anywhere.</p>
-            </b>
-            <br />
-            <img src={hpimg19} id='hpimg19' alt="icon" />
-            <img src={hpimg20} id='hpimg20' alt="icon" />
-            <img src={hpimg21} id='hpimg21' alt="icon" />
-          </div>
-          <div className='dashboard-footer2'>
-            <h2>Links</h2>
-            <br />
-            <br />
-            <br />
-            <br />
-            <div className='dbfooter2'>
-              <b><p>Home</p><br />
-                <p>Services</p><br />
-                <p>Features</p><br />
-                <p>Contact</p><br />
-                <p>Find Doctors</p><br />
-                <p>Book Appointment</p>
+            <p>We will always give our<br/>
+              customers the best services<br/>
+              for their health insurance<br/>
+              anytime and anywhere.</p>
               </b>
-            </div>
+              <br/>
+              <img src={hpimg19} id='hpimg19' alt="icon" />
+              <img src={hpimg20} id='hpimg20' alt="icon" />
+              <img src={hpimg21} id='hpimg21' alt="icon" />
           </div>
-          <div className='dashboard-footer3'>
-            <h2>About</h2>
-            <br />
-            <br />
-            <br />
-            <br />
-            <b>
-              <p>Patients</p><br />
-              <p>Contact</p> <br />
-              <p>Community </p><br />
-              <p>Book Appointment</p>
+          <div className='homepage-footer2'>
+            <h2>Links</h2>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <div className='hpfooter2'>
+            <b><p>Home</p><br/>
+            <p>Services</p><br/>
+            <p>Features</p><br/>
+            <p>Contact</p><br/>
+            <p>Find Doctors</p><br/>
+            <p>Book Appointment</p>
             </b>
-          </div>
-          <div className='dashboard-footer4'>
-            <h3>Subscribe to our newsletters</h3>
-            <br />
-            <br />
-            <br />
-            <br />
-            <input
-              className="dashboard-input"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              type="email"
-              placeholder="example@gmail.com"
-            />
-            <br />
-            <br />
-            <br />
-            <div className='dashboard-btn'>
-              <button>Submit</button>
             </div>
           </div>
-          <div className='db-footer3'>
-            <hr />
+          <div className='homepage-footer3'>
+            <h2>About</h2>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <b>
+            <p>Patients</p><br/>
+             <p>Contact</p> <br/>
+             <p>Community </p><br/>
+             <p>Book Appointment</p>
+             </b>
           </div>
-          <div className='db-footer4'>
-            <p>Copyright @ group28</p>
+          <div className='homepage-footer4'>
+            <h3>Subscribe to our newsletters</h3>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <input
+                    className="footer-input"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    type="email"
+                    placeholder="example@gmail.com"
+                />
+                <br/>
+                <br/>
+                <br/>
+                <div className='footer-btn'>
+                <button>Submit</button>
+                </div>
+          </div>
+          
+        
+         
+          <div className='hp-footer4'>
+          <hr/>
+          <br/>
+          <br/>
+          <p>Copyright @ Group28</p>
           </div>
         </footer>
       </div>
-    </body>
+   
 
 
   );
 }
-
-export default HomePage;
+export default Dashboard;

@@ -21,7 +21,7 @@ import hpimg18 from './hpimg18.png';
 import hpimg19 from './hpimg19.png';
 import hpimg20 from './hpimg20.png';
 import hpimg21 from './hpimg21.png';
-
+import './HomePage.css';
 
 function HomePage() {
   const [email, setEmail] = useState('');
@@ -201,6 +201,7 @@ function HomePage() {
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
+            <img src={hpimg16} id='hpimg16' alt="icon" />
           </div>
         </div>
         <div className='homepage-card5'>
@@ -212,6 +213,7 @@ function HomePage() {
           <br />
           <p><b>1620+ patients.</b></p>
           <div className='sub10'>
+            <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
@@ -235,6 +237,7 @@ function HomePage() {
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
             <img src={hpimg16} id='hpimg16' alt="icon" />
+            <img src={hpimg16} id='hpimg16' alt="icon" />
           </div>
         </div>
 
@@ -242,14 +245,16 @@ function HomePage() {
         <div className='homepage-section9'>
           <h3>What Our  Customers Say About Us.</h3>
           <br />
+
           <div className='homepage-card7'>
             <img src={hpimg13} id='hpimg13' alt="icon" />
 
             <p>Although this ia good innovation, the main aim
               is to have a stress free visitation at the hospital
               in order to see the doctor.</p>
-
+              <br/>
             <hr />
+            
             <h4>Wade Wumi</h4><br />
             <div className='sub12'>
               <p>
@@ -272,9 +277,10 @@ function HomePage() {
               has it helps me to book appointment aheasd
               in other to save time and stress.
             </p>
+            <br/>
             <hr />
             <h4>Ilesanmi Oluwatope</h4>
-            <div className='sub13'>
+            <div className='sub12'>
               <p>
                 <b>
                   CEO Google Inc.
@@ -294,9 +300,10 @@ function HomePage() {
             <p>This website is very helpful as it help to reduce
               the frequent visiting to the hospital and help
               me most of my consultation online.</p>
+              <br/>
             <hr />
             <h4>Victoria Joy</h4>
-            <div className='sub14'>
+            <div className='sub12'>
               <p>
                 <b>
                   CEO Google Inc.
@@ -390,10 +397,13 @@ function HomePage() {
                 <button>Submit</button>
                 </div>
           </div>
-          <div className='hp-footer3'>
-          <hr/>
-          </div>
+          
+        
+         
           <div className='hp-footer4'>
+          <hr/>
+          <br/>
+          <br/>
           <p>Copyright @ Group28</p>
           </div>
         </footer>
