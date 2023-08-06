@@ -369,7 +369,7 @@ function FindDoctor () {
 
 
 
-        <footer>
+        <footer className='fd-footer'>
         <img src={logo} id='fdfooter1' alt="icon" />
             <br/>
             <div className='fd-footer1'>
@@ -441,7 +441,7 @@ function FindDoctor () {
                 </form>
           </div>
           <hr/>
-          <p>Copyright @ ju-code14</p>
+          <p>Copyright @ Group28</p>
         </footer>
 
     </div>

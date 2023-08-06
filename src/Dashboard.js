@@ -348,7 +348,7 @@ function Dashboard() {
           </div>
         </div>
 
-        <footer>
+        <footer className='dashboard-footer'>
           
             <img src={logo} id='hpfooter1' alt="icon" />
             <br/>

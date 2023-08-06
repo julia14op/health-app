@@ -332,7 +332,7 @@ function HomePage() {
           </div>
         </div>
 
-        <footer>
+        <footer className='homepage-footer'>
           
             <img src={logo} id='hpfooter1' alt="icon" />
             <br/>

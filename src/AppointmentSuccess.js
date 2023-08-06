@@ -12,7 +12,7 @@ function AppointmentSuccess() {
 
   return (
     <div className='Asuccess-main'>
-      <Link to='/view-doctor'><img src={ppimg1} id='as1' alt='icon' /></Link>
+      <Link to='/'><img src={ppimg1} id='as1' alt='icon' /></Link>
 
       <img src={logo} id="aslogo" alt="Healthify Logo" />
       <br />

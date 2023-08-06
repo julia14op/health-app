@@ -1154,7 +1154,8 @@
     background-color: #0941D1;
 }
 
-footer{
+.fd-footer{
+    background-color: #fff;
     position: relative;
     top:50px;
 }

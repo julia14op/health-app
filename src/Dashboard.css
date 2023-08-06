@@ -552,7 +552,7 @@
     background-color: #0941D1;
 }
 
-footer {
+.dashboard-footer {
     background-color: #fff;
     position: absolute;
     top: 3900px;
