@@ -7,8 +7,6 @@ import img6 from './img6.png';
 import img7 from './img7.png';
 import img8 from './img8.png';
 
-// eslint-disable-next-line
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function LandingPage() {
   const navigate = useNavigate();
